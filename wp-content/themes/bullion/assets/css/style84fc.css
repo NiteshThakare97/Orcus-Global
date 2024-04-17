@@ -3872,7 +3872,7 @@ div#mCSB_1_container {
 
 .main-footer .widget-section {
   position: relative;
-  padding: 85px 0px 90px 0px;
+  padding: 85px 0px 85px 0px;
   border-bottom: 1px solid #35335b;
 }
 
@@ -3881,11 +3881,13 @@ div#mCSB_1_container {
   display: block;
   margin-bottom: 14px;
 }
-#footer-col-1 .widget-title, #footer-col-2 .widget-title {
+#footer-col-1 .widget-title,
+#footer-col-2 .widget-title {
   padding-left: 17px;
 }
 
-.main-footer #footer-col-1 .widget-title:before, .main-footer #footer-col-2 .widget-title:before {
+.main-footer #footer-col-1 .widget-title:before,
+.main-footer #footer-col-2 .widget-title:before {
   position: absolute;
   content: "";
   background: var(--theme-color);
@@ -3895,7 +3897,8 @@ div#mCSB_1_container {
   top: 7px;
 }
 
-.main-footer #footer-col-1 .widget-title:after, .main-footer #footer-col-2 .widget-title:after {
+.main-footer #footer-col-1 .widget-title:after,
+.main-footer #footer-col-2 .widget-title:after {
   position: absolute;
   content: "";
   background: var(--theme-color);
@@ -12595,7 +12598,10 @@ label.error {
   top: -36px;
 }
 
-.elementor-element-c857824 hr, .working-section hr, .faq-section hr, .elementor-element-b8579de hr {
+.elementor-element-c857824 hr,
+.working-section hr,
+.faq-section hr,
+.elementor-element-b8579de hr {
   width: 65px;
   height: 5px;
   margin: 20px auto 0px !important;
@@ -12625,7 +12631,8 @@ label.error {
   position: absolute;
   right: 0px;
 }
-#footer-col-1, #footer-col-2 {
+#footer-col-1,
+#footer-col-2 {
   padding-top: 30px;
 }
 #homesec5-loti {
@@ -12672,7 +12679,8 @@ label.error {
   background-repeat: no-repeat;
   padding: 50px 0px 54px 0px;
 }
-.elementor-element-2e661f3 p, .elementor-element-2e661f3 h2 {
+.elementor-element-2e661f3 p,
+.elementor-element-2e661f3 h2 {
   color: #fff;
 }
 #abtsec2-1 {
@@ -12698,6 +12706,18 @@ label.error {
   content: url(../../../../images/About/03/Icon/Value.png);
 }
 
+#social-links {
+  display: flex;
+  margin-top: 20px;
+}
+#social-links li {
+  margin-bottom: 20px;
+}
+#linktree-scanner {
+  width: 100px;
+  background-color: #fff;
+  border-radius: 4px;
+}
 
 @media only screen and (min-width: 1600px) {
   #contact-banner {
