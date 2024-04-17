@@ -12711,7 +12711,10 @@ label.error {
   margin-top: 20px;
 }
 #social-links li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+#social-links li img {
+  width: 35px;
 }
 #linktree-scanner {
   width: 100px;
