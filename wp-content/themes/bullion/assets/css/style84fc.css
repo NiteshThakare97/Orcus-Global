@@ -3872,7 +3872,7 @@ div#mCSB_1_container {
 
 .main-footer .widget-section {
   position: relative;
-  padding: 80px 0px 80px 0px;
+  padding: 50px 0px 54px 0px;
   border-bottom: 1px solid #35335b;
 }
 
@@ -12707,17 +12707,22 @@ label.error {
   content: url(../../../../images/About/03/Icon/Value.png);
 }
 
-#social-links {
+/* #social-links {
   display: flex;
   align-items: flex-end;
-}
+} */
 #social-links li img {
-  width: 35px;
+  width: 30px;
 }
 #linktree-scanner {
-  width: 55px;
+  width: 73px;
   background-color: #fff;
-  border-radius: 2px;
+}
+#linktree {
+  margin-top: 20px;
+}
+#linktree-img1 {
+  width: 100px;
 }
 
 @media only screen and (min-width: 1600px) {
